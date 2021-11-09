@@ -18,32 +18,7 @@
     <title>Beranda</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#"><img src="https://img.icons8.com/ios-filled/25/000000/instagram-new.png"/></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#"><img src="https://img.icons8.com/ios-filled/25/000000/facebook.png"/></a>
-          </li> 
-        </ul>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="btn tombol-login rounded-pill" aria-current="page" href="SignIn.php"><img src="images\user.svg"></a>
-            </li>
-            <li class="nav-item">
-              <a class="btn tombol-login rounded-pill" aria-current="page" href="#"><img src="images\search.svg"></a>
-            </li>
-            <li class="nav-item">
-              <a class="btn tombol-login rounded-pill" aria-current="page" href="#"><img src="images\shopping.svg"></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    
     <nav class="navbar nav2 navbar-expand-lg navbar-light">
         <div class="container">
           <a class="navbar-brand" href="#"><img src="images\lgbonafide.png" style="width: 25%"></a>
@@ -57,17 +32,17 @@
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Collections
+                  PAGES
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="contact.php">Contact</a></li>
+                  <li><a class="dropdown-item" href="faq.php">FAQ</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="coming-soon.php">Cooming Soon</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Testimoni</a>
+              <a class="btn keranjang" href="faq.php" role="button">About</a>
               </li>
             </ul>
           </div>
@@ -88,7 +63,7 @@
         <div class="text container-fluid py-5">
           <h1 class="display-5 fw-bold">Dompet Kulit</h1>
           <p class="col-md-8 fs-5">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-          <button class="btn btn-primary btn-lg" type="button">Example button</button>
+          <button class="btn btn-primary btn-lg"  type="button" href="shop.php">Example button</button>
         </div>
       </div>
       <div class="col-md-6 mt-6">
@@ -214,7 +189,7 @@
         <div class="container">
           <div class="row pt-5 mb-5">
             <div class="col">
-              <h2 class="Judul"> Sandal Kulit </h2>
+              <h2 class="Judul"> More Products </h2>
             </div>
         
           <br>
@@ -227,7 +202,7 @@
               <div class="col-md-4">
                 <div class="card mt-3">
                   <div class="product-1 align-items-center p-2 text-center">
-                    <img src="images\sandal.png" alt="" class="rounded text-light" width="160">
+                    <img src="images\sandal.png" alt="" class="rounded text-light" width="150">
                     <h5>SANDAL ZEINTIN KK 98</h5>
                     <div class="cost mt-3 text-dark">
                       <span>Rp.50.000</span>
@@ -235,7 +210,7 @@
                   </div>
             
 
-                  <a class="btn keranjang" href="#" role="button">Lihat Produk</a>
+                  <a class="btn keranjang" href="produk2.php" role="button">Lihat Produk</a>
                 </div>
               </div>
           
@@ -243,7 +218,7 @@
               <div class="col-md-4">
                 <div class="card mt-3">
                   <div class="product-1 align-items-center p-2 text-center">
-                    <img src="images\sandal1.png" alt="" class="rounded" width="160">
+                    <img src="images\sandal1.png" alt="" class="rounded" width="150">
                     <h5>SANDAL KULIT </h5>
                     <div class="cost mt-3 text-dark">
                       <span>Rp.50.000</span>
@@ -251,14 +226,14 @@
                   </div>
                   <!-- {{-- Button For Cards --}} -->
                 <!-- {{-- Button For Cards --}} -->
-                <a class="btn keranjang" href="#" role="button">Lihat Produk</a>
+                <a class="btn keranjang" href="produk2.php" role="button">Lihat Produk</a>
                 </div>
               </div>
               <!-- {{-- Card3 --}} -->
               <div class="col-md-4">
                 <div class="card mt-3">
                   <div class="product-1 align-items-center p-2 text-center">
-                    <img src="images\sandal2.png" alt="" class="rounded" width="160">
+                    <img src="images\sandal2.png" alt="" class="rounded" width="150">
                     <h5>SANDAL PRO ACTION KING</h5>
                     <div class="cost mt-3 text-dark">
                       <span>Rp.50.000</span>
@@ -266,7 +241,7 @@
                   </div>
                   <!-- {{-- Button For Cards --}} -->
                 <!-- {{-- Button For Cards --}} -->
-                <a class="btn keranjang" href="#" role="button">Lihat Produk</a>
+                <a class="btn keranjang" href="produk2.php" role="button">Lihat Produk</a>
                 </div>
               </div>
             </div>
