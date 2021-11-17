@@ -36,21 +36,21 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                <a class="nav-link active" aria-current="page" href="Beranda.php">Beranda</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Collections
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PAGES
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="contact.php">Contact</a></li>
+                  <li><a class="dropdown-item" href="faq.php">FAQ</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="coming-soon.php">Cooming Soon</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="faq.php">FAQ</a>
+              <a class="btn About" href="faq.php" role="button">About</a>
               </li>
             </ul>
           </div>
@@ -62,20 +62,30 @@
                 <div class="row">
                     <div class="col-md-4">
                         <h2>Frequently Asked Questions</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, repudiandae.</p>
+                        <p>Order Status<br>
+                          Shipping & Delivery<br>
+                          Payments<br>
+                          Returns & Exchanges<br>
+                          Privacy Policy<br>
                         <p>admin@mail.com</p>
                     </div>
                     <div class="col-md-8">
                         <h4>Order Status</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas iusto, alias, tempora fuga quam eveniet neque excepturi aliquid. Eligendi, mollitia.</p>
+                        <p>Bagaimana Cara Mengirimkan Pesanan Dengan Bluebird Kirim/Instant Car?<br>
+                          [Pelacakan Pesanan] Apa Yang Harus Saya Lakukan Jika Saya Belum Menerima Pesanan Saya Setelah Melewati Estimasi Tanggal Pesanan Diterima?<br>
+                          [Pelacakan Pesanan] Apa Yang Harus Saya Lakukan Jika Pick Up Pesanan Dari Penjual Tidak Berhasil?<br>
+                          [Pelacakan Pesanan] Bagaimana Cara Melacak Pesanan Yang Dikirim Dari Luar Negeri?</p>
                         <h4>Shipping & Delivery</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam voluptatibus, incidunt similique nobis sint quisquam nam ab error consequuntur sit ullam ex eum exercitationem, excepturi explicabo beatae eos aspernatur odit ad perspiciatis, neque saepe magni enim. Maiores quia, quae sequi.</p>
+                        <p>Bagaimana Cara Menghubungi Customer Toko Bonafide?</p>
                         <h4>Payments</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus repellat id, laboriosam ipsa repudiandae quisquam, suscipit officiis, praesentium itaque facilis distinctio dolorum. Velit reiciendis libero laudantium corporis, delectus impedit sunt.</p>
+                        <p>Apa Saya Bisa Melakukan Pengembalian Barang/ Dana Untuk Produk Utama?<br>
+                           Bagaimana Jika Saya Ingin Mengubah Nama Pemesan?<br>
+                           Apakah Saya Akan Dikenakan Biaya Tambahan Jika Membatalkan Pesanan Saya?</p>
                         <h4>Returns & Exchanges</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eaque nam, ab voluptas et debitis sint hic vel ratione dignissimos.</p>
+                        <p>Bagaimana Cara Melakukan Penukaran Produk ?<br>
+                           [Pengembalian Barang/Dana ] Berapa Jumlah Pengembalian Dana Yang Akan Saya Terima Jika Melakukan Pembelian Dengan Voucher?</p>
                         <h4>Privacy Policy</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae blanditiis quod saepe, inventore ipsum sint cum iste quae ratione nobis laborum minima autem totam similique, quia neque deleniti! Provident, suscipit.</p>
+                        <p>[Keamanan Akun] Bagaimana Saya Mendeteksi Toko Phishing?</p>
                     </div>
                 </div>
             </div>

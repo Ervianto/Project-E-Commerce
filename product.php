@@ -18,7 +18,32 @@
     <title>Beranda</title>
   </head>
   <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#"><img src="https://img.icons8.com/ios-filled/25/000000/instagram-new.png"/></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#"><img src="https://img.icons8.com/ios-filled/25/000000/facebook.png"/></a>
+          </li> 
+        </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="btn tombol-login rounded-pill" aria-current="page" href="SignIn.php"><img src="images\user.svg"></a>
+            </li>
+            <li class="nav-item">
+              <a class="btn tombol-login rounded-pill" aria-current="page" href="#"><img src="images\search.svg"></a>
+            </li>
+            <li class="nav-item">
+              <a class="btn tombol-login rounded-pill" aria-current="page" href="#"><img src="images\shopping.svg"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <nav class="navbar nav2 navbar-expand-lg navbar-light">
         <div class="container">
           <a class="navbar-brand" href="#"><img src="images\lgbonafide.png" style="width: 25%"></a>
@@ -55,14 +80,17 @@
                     <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="https://id-live-05.slatic.net/p/825a182ff3848b6ab679e9e9203fe5dd.jpg_720x720q80.jpg_.webp" alt="..." /></div>
                     <div class="col-md-6">
                         <div class="small mb-1">SKU: BST-498</div>
-                        <h1 class="display-5 fw-bolder">Shop item template</h1>
+                        <h1 class="display-5 fw-bolder">Sandal Kulit Terbaru</h1>
                         <div class="fs-5 mb-5">
-                            <span class="text-decoration-line-through">$45.00</span>
-                            <span>$40.00</span>
+                            <span class="text-decoration-line-through">Rp.450.000</span>
+                            <span>Rp140.000</span>
                         </div>
-                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?</p>
+                        <p class="lead">DIJAMIN AWETT!!!<br>
+                                        Bahan :100% KULIT ASLI<br>
+                                        BAHAN UPPER : 100% KULIT SAPI ASLI<br>
+                                        OUTSOLE : RUBBER (KARET)</p>
                         <div class="d-flex">
-                            <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
+                            <input class="form-control text-center me-3" id="inputQuantity" type="num" value="12" style="max-width: 3rem" />
                             <button class="btn btn-outline-dark flex-shrink-0" type="button">
                                 <i class="bi-cart-fill me-1"></i>
                                 Add to cart
@@ -87,7 +115,7 @@
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Fancy Product</h5>
                                     <!-- Product price-->
-                                    $40.00 - $80.00
+                                    Rp.40.000 - Rp.80.000
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -116,8 +144,8 @@
                                         <div class="bi-star-fill"></div>
                                     </div>
                                     <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$20.00</span>
-                                    $18.00
+                                    <span class="text-muted text-decoration-line-through">Rp.450.000</span>
+                                    <span>Rp140.000</span>
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -138,8 +166,8 @@
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Sale Item</h5>
                                     <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$50.00</span>
-                                    $25.00
+                                    <span class="text-muted text-decoration-line-through">Rp.450.000</span>
+                                    <span>Rp140.000</span>
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -166,7 +194,7 @@
                                         <div class="bi-star-fill"></div>
                                     </div>
                                     <!-- Product price-->
-                                    $40.00
+                                    Rp140.000
                                 </div>
                             </div>
                             <!-- Product actions-->

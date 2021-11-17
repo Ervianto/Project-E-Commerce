@@ -59,18 +59,18 @@
                 <a class="nav-link active" aria-current="page" href="#">Beranda</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Collections
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PAGES
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="contact.php">Contact</a></li>
+                  <li><a class="dropdown-item" href="faq.php">FAQ</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="coming-soon.php">Cooming Soon</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Testimoni</a>
+              <a class="btn keranjang" href="faq.php" role="button">About</a>
               </li>
             </ul>
           </div>
@@ -233,7 +233,7 @@
         <div class="container">
           <div class="row pt-5 mb-5">
             <div class="col">
-              <h2 class="Judul"> Sandal Kulit </h2>
+              <h2 class="Judul"> More Products </h2>
             </div>
         
           <br>
@@ -246,7 +246,7 @@
               <div class="col-md-4">
                 <div class="card mt-3">
                   <div class="product-1 align-items-center p-2 text-center">
-                    <img src="images\sandal.png" alt="" class="rounded text-light" width="160">
+                    <img src="images\sandal.png" alt="" class="rounded text-light" width="150">
                     <h5>SANDAL ZEINTIN KK 98</h5>
                     <div class="cost mt-3 text-dark">
                       <span>Rp.50.000</span>
@@ -254,7 +254,7 @@
                   </div>
             
 
-                  <a class="btn keranjang" href="#" role="button">Lihat Produk</a>
+                  <a class="btn keranjang" href="produk2.php" role="button">Lihat Produk</a>
                 </div>
               </div>
           
@@ -262,7 +262,7 @@
               <div class="col-md-4">
                 <div class="card mt-3">
                   <div class="product-1 align-items-center p-2 text-center">
-                    <img src="images\sandal1.png" alt="" class="rounded" width="160">
+                    <img src="images\sandal1.png" alt="" class="rounded" width="150">
                     <h5>SANDAL KULIT </h5>
                     <div class="cost mt-3 text-dark">
                       <span>Rp.50.000</span>
@@ -270,14 +270,14 @@
                   </div>
                   <!-- {{-- Button For Cards --}} -->
                 <!-- {{-- Button For Cards --}} -->
-                <a class="btn keranjang" href="#" role="button">Lihat Produk</a>
+                <a class="btn keranjang" href="produk2.php" role="button">Lihat Produk</a>
                 </div>
               </div>
               <!-- {{-- Card3 --}} -->
               <div class="col-md-4">
                 <div class="card mt-3">
                   <div class="product-1 align-items-center p-2 text-center">
-                    <img src="images\sandal2.png" alt="" class="rounded" width="160">
+                    <img src="images\sandal2.png" alt="" class="rounded" width="150">
                     <h5>SANDAL PRO ACTION KING</h5>
                     <div class="cost mt-3 text-dark">
                       <span>Rp.50.000</span>
@@ -285,7 +285,7 @@
                   </div>
                   <!-- {{-- Button For Cards --}} -->
                 <!-- {{-- Button For Cards --}} -->
-                <a class="btn keranjang" href="#" role="button">Lihat Produk</a>
+                <a class="btn keranjang" href="produk2.php" role="button">Lihat Produk</a>
                 </div>
               </div>
             </div>

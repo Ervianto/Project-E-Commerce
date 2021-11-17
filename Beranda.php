@@ -18,7 +18,32 @@
     <title>Beranda</title>
   </head>
   <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#"><img src="https://img.icons8.com/ios-filled/25/000000/instagram-new.png"/></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#"><img src="https://img.icons8.com/ios-filled/25/000000/facebook.png"/></a>
+          </li> 
+        </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="btn tombol-login rounded-pill" aria-current="page" href="SignIn.php"><img src="images\user.svg"></a>
+            </li>
+            <li class="nav-item">
+              <a class="btn tombol-login rounded-pill" aria-current="page" href="#"><img src="images\search.svg"></a>
+            </li>
+            <li class="nav-item">
+              <a class="btn tombol-login rounded-pill" aria-current="page" href="#"><img src="images\shopping.svg"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <nav class="navbar nav2 navbar-expand-lg navbar-light">
         <div class="container">
           <a class="navbar-brand" href="#"><img src="images\lgbonafide.png" style="width: 25%"></a>
